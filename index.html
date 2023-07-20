@@ -199,7 +199,38 @@ l
             gap: 5px;
             justify-content: center;
         }
-        
+        .images:hover{
+            color: #FF42A5;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            color: #FFF;
+        }
+        .foot{
+            background-color: #0B0223;
+        }
+        .am{
+            color: #FFF;
+        }
+        .gamer-bd{
+            color: #FFF;
+            text-align: center;
+        }
+        .we-are{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
     </style>
 </head>
 <body>
@@ -207,7 +238,7 @@ l
         <nav>
             <div class="frame">
                 <img class="frame-img" src="images/Frame.png" alt="">
-                <h2 id="game"><span>G</span>amer</h2>
+                <h2 class="game"><span>G</span>amer</h2>
             </div>
             <ul class="about">
                 <li>About US</li>
@@ -235,6 +266,15 @@ l
             </div>
             <div>
                 <img src="images/Group 18.png" alt="">
+            </div>
+        </section>
+        <section class="we-are">
+            <div>
+                <img src="images/pngwing 4.png" alt="">
+            </div>
+            <div>
+                <h3>We are gamer</h3>
+                <p>An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing.</p>
             </div>
         </section>
         <section class="online-games">
@@ -297,8 +337,25 @@ l
             
         </section>
     </main>
-    <footer>
-
+    <footer class="foot">
+        <div class="container">
+            <img class="frame-img" src="images/Frame.png" alt="">
+            <h2 class="game"><span>G</span><span class="am">amer</span></h2>
+            
+        </div>
+        <div>
+            <ul class="list">
+                <li>Our Story</li>
+                <li>Games</li>
+                <li>Web Games</li>
+                <li>Creers</li>
+                <li>Support</li>
+                <li>My Account</li>
+            </ul>
+            <div>
+                <p class="gamer-bd">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
